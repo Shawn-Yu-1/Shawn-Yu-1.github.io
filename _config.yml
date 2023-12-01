@@ -222,6 +222,11 @@ paginate: 5 # amount of posts to show
 paginate_path: /page:num/
 timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
+permalink: /:categories/:title/
+paginate: 5 # amount of posts to show
+paginate_path: /page:num/
+timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+
 
 # Plugins (previously gems:)
 plugins:
@@ -279,47 +284,15 @@ compress_html:
 
 # Defaults
 defaults:
-  # # personal introduction
-  # - scope:
-  #     path: ""
-  #     type: personal
-  #   values:
-  #     layout: single
-  #     author_profile: true
-  #     read_time: true
-  #     comments: # true
-  #     share: true
-  #     related: true
-  # # post
-  # - scope:
-  #     path: ""
-  #     type: post
-  #   values:
-  #     layout: single
-  #     author_profile: true
-  #     read_time: true
-  #     comments: # true
-  #     share: true
-  #     related: true
-  # # education
-  # - scope:
-  #     path: "/_education/edu.md"
-  #     type: education
-  #   values:
-  #     layout: single
-  #     author_profile: true
-  #     # read_time: true
-  #     # comments: # true
-  #     share: true
-  #     # related: true
-  # # Publication
-  # - scope:
-  #     path: ""
-  #     type: publications
-  #   values:
-  #     layout: single
-  #     author_profile: true
-  #     read_time: true
-  #     comments: # true
-  #     share: true
-  #     related: true    
+  # post
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: # true
+      share: true
+      related: true
+  
