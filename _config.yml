@@ -303,23 +303,23 @@ defaults:
       related: true
   # education
   - scope:
-        path: ""
-        type: education
-      values:
-        layout: single
-        author_profile: true
-        read_time: true
-        comments: # true
-        share: true
-        related: true
+      path: ""
+      type: education
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: # true
+      share: true
+      related: true
   # Publication
   - scope:
-        path: ""
-        type: publications
-      values:
-        layout: single
-        author_profile: true
-        read_time: true
-        comments: # true
-        share: true
-        related: true    
+      path: ""
+      type: publications
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: # true
+      share: true
+      related: true    
