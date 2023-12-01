@@ -16,10 +16,10 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Welcome "
+title                    : "Welcome to my profile "
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "1235"
+name                     : "Xiankang Yu"
 description              : "An amazing website."
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
@@ -106,13 +106,13 @@ analytics:
 author:
   name             : "Xiankang Yu"
   avatar           : "/assets/profile.jpg"
-  bio              : "I am an **amazing** person."
-  location         : "Somewhere"
-  email            :
+  bio              : "Graduate student in computer science in ECUST,my major research is about computer vision."
+  location         : "ShangHai, China"
+  email            : yin950429@hotmail.com
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      # url: "mailto:your.name@email.com"
+      # url: "mailto:yin950429@hotmail.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
@@ -124,7 +124,7 @@ author:
       # url: "https://facebook.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url: "https://github.com/"
+      url: "https://github.com/Shawn-Yu-1/"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
@@ -279,10 +279,10 @@ compress_html:
 
 # Defaults
 defaults:
-  # _posts
+  # personal introduction
   - scope:
       path: ""
-      type: posts
+      type: personal
     values:
       layout: single
       author_profile: true
@@ -290,3 +290,36 @@ defaults:
       comments: # true
       share: true
       related: true
+  # post
+  - scope:
+      path: ""
+      type: post
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: # true
+      share: true
+      related: true
+  # education
+  - scope:
+        path: ""
+        type: education
+      values:
+        layout: single
+        author_profile: true
+        read_time: true
+        comments: # true
+        share: true
+        related: true
+  # Publication
+  - scope:
+        path: ""
+        type: publications
+      values:
+        layout: single
+        author_profile: true
+        read_time: true
+        comments: # true
+        share: true
+        related: true    
