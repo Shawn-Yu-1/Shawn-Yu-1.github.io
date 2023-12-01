@@ -295,4 +295,15 @@ defaults:
       comments: # true
       share: true
       related: true
+  # post
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+      # read_time: true
+      # comments: # true
+      # share: true
+      # related: true
   
