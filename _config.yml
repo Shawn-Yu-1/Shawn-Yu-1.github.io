@@ -303,7 +303,7 @@ defaults:
       related: true
   # education
   - scope:
-      path: ""
+      path: "/_education/edu.md"
       type: education
     values:
       layout: single
