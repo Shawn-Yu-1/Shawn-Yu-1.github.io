@@ -11,8 +11,8 @@ redirect_from:
 
 Education
 ======
-* M.S. in Computer Science, East China University of Science and Technology, 2021-2024
-* B.S. in Food Quality and Safety, East China University of Science and Technology, 2013-2017
+* M.S. in Computer Science, *East China University of Science and Technology*, 2021-2024
+* B.S. in Food Quality and Safety, *East China University of Science and Technology*, 2013-2017
 
 Work experience
 ======
@@ -50,4 +50,4 @@ Activities
   
 Service and leadership
 ======
-* Currently signed in to 43 different slack teams
+* Currently signed in to 43 different slack teams-->
