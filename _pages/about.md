@@ -10,7 +10,7 @@ redirect_from:
 
 Hi, I am a postgraduate at *East China University of Science and Technology*, and my major is computer vision and low-level image processing in computer science. I will get my M.S. degree in CS in the summer of 2024. Fortunately, I got a Ph.D. offer from Nagoya University, so I will go to Japan in the fall of 2024 if possible.     
 
-## Reseach Fields
+Research Fields
 ======
 - Computer Vision
 - Low-level image processing
