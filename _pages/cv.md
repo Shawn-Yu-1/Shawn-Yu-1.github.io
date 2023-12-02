@@ -11,30 +11,24 @@ redirect_from:
 
 Education
 ======
-* B.S. in GitHub, GitHub University, 2012
-* M.S. in Jekyll, GitHub University, 2014
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
+* M.S. in Computer Science, East China University of Science and Technology, 2021-2024
+* B.S. in Food Quality and Safety, East China University of Science and Technology, 2013-2017
 
 Work experience
 ======
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* Summer 2023: Deep Learn Algorithm Intern
+  * Company: *Attrsense*
+  * Duties included: In our research on car plate detection and recognition, we use YOLOv7 to detect the plate and the CRNN model to recognize the plate numbers. We need to apply the system to edge devices for real-time and achieve over 90% accuracy on real crossroads.
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* Summer 2022: Computer Vision Algorithm Intern
+  * company: *FOSUN Aitrox*
+  * Duties included: We try to deal with the unbalanced labels in medical image classification. In the intern days, we used dataset balance, data augmentation, and metric learning to solve some issues.
   
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* Python, Pytorch, Jittor etc.
+* Linux, C/C++
+* Computer Vision
 
 Publications
 ======
@@ -42,13 +36,13 @@ Publications
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
-Talks
+Activities
 ======
-  <ul>{% for post in site.talks %}
+  <ul>{% for post in site.activities %}
     {% include archive-single-talk-cv.html %}
   {% endfor %}</ul>
   
-Teaching
+<!--Teaching
 ======
   <ul>{% for post in site.teaching %}
     {% include archive-single-cv.html %}
