@@ -19,8 +19,10 @@ Citation
   title={AGG: attention-based gated convolutional GAN with prior guidance for image inpainting},
   author={Yu, Xiankang and Dai, Lei and Chen, Zhihua and Sheng, Bin},
   journal={Neural Computing and Applications},
-  pages={1--17},
+  pages={12589--12604},
   year={2024},
+  volume={36},
+  number={20},
   publisher={Springer}
 }
 ```
